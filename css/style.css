@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+}
+
 header {
   background-color: #0020f4;
   height: 388px;
@@ -14,7 +18,7 @@ header {
 .head-container {
   flex-wrap: wrap;
   margin: 0 auto;
-  width: 1475px;
+  max-width: 1475px;
   padding-top: 30px;
   display: flex;
   justify-content: space-between;
@@ -37,10 +41,14 @@ ul {
 }
 
 nav a {
-  text-decoration: none;
   color: #ffffff;
   font-size: 16px;
   margin: 18px;
+  font-family: 'HelveticaNeue';
+}
+
+nav a:hover {
+  text-decoration: underline;
 }
 
 .contact {
@@ -50,4 +58,68 @@ nav a {
   background-color: #ffffff;
   padding: 18px 43px;
   font-weight: bold;
+}
+
+.overheader {
+  position: absolute;
+  top: 40%;
+  left: 10%;
+}
+
+section {
+  margin-top: 32%;
+}
+
+h1 {
+  text-align: justify;
+  max-width: 714px;
+  margin: auto;
+  font-family: 'HelveticaNeue';
+}
+
+.multiplebuildings {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 60px;
+  margin-top: 60px;
+}
+
+.multiplebuildings img {
+  margin: 0 25px;
+  border-radius: 15px;
+}
+
+.paragraph-section {
+  max-width: 951px;
+  text-align: justify;
+  margin: auto;
+  font-size: 16px;
+  line-height: 26px;
+  font-family: 'HelveticaNeue';
+}
+
+.first-paragraph {
+  margin-bottom: 18px;
+}
+
+.last-paragraph {
+  margin-top: 18px;
+  margin-bottom: 58px;
+}
+.additional a {
+  color: #ffffff;
+  font-family: 'HelveticaNeue';
+  font-weight: bold;
+}
+.additional {
+  width: 341px;
+  height: 55px;
+  margin: auto;
+  border-radius: 28px;
+  background-color: #0a22f4;
+  padding: 18px 57px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

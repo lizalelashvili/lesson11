@@ -1,12 +1,34 @@
 @media (max-width: 1024px) {
+  header {
+    height: 185px;
+    width: 100%;
+    border-radius: 0px 0px 20px 20px;
+    position: relative;
+  }
+  .head-container {
+    display: flex;
+    justify-content: center;
+  }
   .skylogo {
-    width: 97px;
-    height: 55px;
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  nav {
-    overflow: hidden;
+  .skylogo img {
+    margin-top: 40px;
+    width: 97px;
+    height: 55px;
+  }
+  .hidden {
+    display: none;
+  }
+  .overheader {
+    position: absolute;
+    top: 70%;
+    left: 35%;
+  }
+  .overheader img {
+    width: 334px;
+    height: 210px;
   }
 }
