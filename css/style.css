@@ -1,0 +1,53 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #0020f4;
+  height: 388px;
+  width: 100%;
+  position: relative;
+}
+
+.head-container {
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 1475px;
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.skylogo {
+  width: 115px;
+  height: 65px;
+}
+
+nav,
+nav ul,
+li {
+  display: flex;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 16px;
+  margin: 18px;
+}
+
+.contact {
+  font-size: 18px;
+  color: #171717;
+  border-radius: 28px;
+  background-color: #ffffff;
+  padding: 18px 43px;
+  font-weight: bold;
+}

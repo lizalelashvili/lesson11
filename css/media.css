@@ -1,0 +1,12 @@
+@media (max-width: 1024px) {
+  .skylogo {
+    width: 97px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  nav {
+    overflow: hidden;
+  }
+}
